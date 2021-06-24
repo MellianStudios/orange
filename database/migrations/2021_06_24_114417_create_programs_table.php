@@ -19,6 +19,8 @@ class CreateProgramsTable extends Migration
             $table->string('name');
             $table->string('genre');
             $table->smallInteger('duration');
+            $table->smallInteger('program_day');
+            $table->smallInteger('year');
             $table->timestamps();
         });
     }
